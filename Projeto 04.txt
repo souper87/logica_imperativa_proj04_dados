@@ -1,0 +1,33 @@
+# Projeto 04 - Entrada e Saída de Dados
+
+## Instruções do projeto
+
+Elabore um algoritmo para que o usuário, através da entrada de dados, informe os seus dados pessoais. Alguns desses dados fornecidos pelo usuário precisam ser apresentados na tela quando o algoritmo for executado, são eles: Nome; Endereço; Cidade; CPF; e RG.
+
+## Criação do algoritmo
+
+var Nome : caracter
+var Endereço : caracter
+var Cidade : caracter
+var CPF : inteiro
+var RG : inteiro
+
+Inicio
+escreva("Informe seu nome:")
+leia (nome)
+escreva("Informe seu endereço:")
+leia (endereço)
+escreva("Informe sua cidade:")
+leia (cidade)
+escreva("Informe seu CPF:")
+leia (CPF)
+escreva("Informe seu RG:")
+leia (RG)
+
+escreva("O seu nome é:", nome)
+escreva("O seu endereco é:", endereco)
+escreva("A sua cidade é:", cidade)
+escreva("O seu CPF é:", CPF)
+escreva("O seu CPF é:", RG)
+
+Fimalgoritmo
